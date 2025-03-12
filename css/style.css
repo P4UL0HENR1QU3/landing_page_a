@@ -135,3 +135,21 @@ Estilização do Rodapé
     width: 100%; /* Faz com que o elemento atual fique 100% do tamanho do elemento pai (Você não está utilizando o display.) */
     box-sizing: border-box;
 }
+
+/* Trabalhando com responsividade */
+
+@media(width <= 600px) {
+    
+    h1 {
+        text-align: center;
+    }
+
+    .vantagens-item{
+        width: 100%;
+    }
+
+    .conteudo {
+        grid-template-columns: 1fr;
+    }
+}
+
